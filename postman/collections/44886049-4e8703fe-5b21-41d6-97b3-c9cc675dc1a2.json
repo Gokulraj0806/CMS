@@ -638,7 +638,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Deleting the single notification",
 					"id": "44886049-14af36d7-1ea9-416c-87df-3449eb47689e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
