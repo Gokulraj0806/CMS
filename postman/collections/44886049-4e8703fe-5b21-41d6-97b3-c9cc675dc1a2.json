@@ -667,7 +667,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Delete all notification",
 					"id": "44886049-eec7e240-3405-4614-b2ca-840d475ee3c1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
