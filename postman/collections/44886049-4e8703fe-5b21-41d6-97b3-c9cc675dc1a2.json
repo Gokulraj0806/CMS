@@ -609,7 +609,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Mark all notification as read",
 					"id": "44886049-c6a54fa9-c78a-439d-b94a-74164336f361",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
