@@ -408,7 +408,7 @@
 			"name": "Rent",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "create",
 					"id": "44886049-11e155cb-f3fd-4e13-b3b8-313c8f0ce794",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
