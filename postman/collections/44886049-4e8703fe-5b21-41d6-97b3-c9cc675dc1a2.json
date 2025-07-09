@@ -557,7 +557,24 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/notification/",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"notification",
+								""
+							]
+						}
 					},
 					"response": []
 				}
