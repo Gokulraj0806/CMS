@@ -446,14 +446,31 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Rentel Histroy",
 					"id": "44886049-bfa7e1da-3dc8-4b24-b9eb-09ca4208c6f5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/rental/history",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rental",
+								"history"
+							]
+						}
 					},
 					"response": []
 				}
