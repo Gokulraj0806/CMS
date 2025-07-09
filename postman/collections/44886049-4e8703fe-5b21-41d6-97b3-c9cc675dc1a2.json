@@ -481,6 +481,36 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/rental/reorder/686e86a95e6b74dd597414b6",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"rental",
+								"reorder",
+								"686e86a95e6b74dd597414b6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "44886049-a6d9cc3f-9392-41f6-afb0-5bbb1f945579",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
 						"method": "GET",
 						"header": []
 					},
