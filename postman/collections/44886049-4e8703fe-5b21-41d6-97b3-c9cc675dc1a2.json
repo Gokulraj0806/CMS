@@ -644,8 +644,25 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/notification/686e83f1dfc8e0dac3c21dc4",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"notification",
+								"686e83f1dfc8e0dac3c21dc4"
+							]
+						}
 					},
 					"response": []
 				}
