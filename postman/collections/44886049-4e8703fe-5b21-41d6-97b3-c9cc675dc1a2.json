@@ -475,7 +475,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "reordering the same product",
 					"id": "44886049-83370c3c-45b3-4c84-bf4d-4da6cb83659e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
