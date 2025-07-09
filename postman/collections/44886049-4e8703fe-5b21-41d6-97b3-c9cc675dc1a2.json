@@ -579,8 +579,38 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "mark the single notification",
 					"id": "44886049-8a98c53e-4ad3-4462-9acb-460080360a11",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/notification/read/686e8ee7d6abf5b68cb2e294",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"notification",
+								"read",
+								"686e8ee7d6abf5b68cb2e294"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "44886049-c6a54fa9-c78a-439d-b94a-74164336f361",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
