@@ -550,7 +550,7 @@
 			"name": "Notification",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "all notification",
 					"id": "44886049-e6c5ca5f-e7a1-45a4-818d-d68ce34e1c83",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
