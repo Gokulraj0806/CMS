@@ -403,6 +403,18 @@
 				}
 			],
 			"id": "44886049-02ef1f52-61de-4b22-ac5e-deedbe89803d"
+		},
+		{
+			"name": "New Request",
+			"id": "44886049-c0eae677-9650-4ab4-b47e-5fc9f3637d42",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {
