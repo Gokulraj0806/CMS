@@ -127,14 +127,40 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "user Profile changes",
 					"id": "44886049-a6e64b0a-a806-4eea-aec0-a6b3778874e4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"S\",\r\n  \"phone\": \"9025815749\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/auth/update-details",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"update-details"
+							]
+						}
 					},
 					"response": []
 				}
