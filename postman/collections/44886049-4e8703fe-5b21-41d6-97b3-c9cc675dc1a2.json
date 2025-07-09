@@ -547,8 +547,21 @@
 			"id": "44886049-94c81c12-9d13-4c55-8bbe-e9cdb782c112"
 		},
 		{
-			"name": "New Folder",
-			"item": [],
+			"name": "Notification",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "44886049-e6c5ca5f-e7a1-45a4-818d-d68ce34e1c83",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "44886049-e41da9c8-30ca-46eb-9e9d-432e3e0aec9d"
 		}
 	],
