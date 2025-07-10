@@ -700,7 +700,20 @@
 		},
 		{
 			"name": "Admin",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "44886049-70e04e54-076f-4f85-a51d-d006d3fa403c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "44886049-ae950f78-3f39-49fa-a732-9d761d412dea"
 		}
 	],
