@@ -835,7 +835,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Rent",
 					"id": "44886049-3af1cc80-fb12-4b21-b83a-ef7837c368ad",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
