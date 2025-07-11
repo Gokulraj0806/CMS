@@ -874,7 +874,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Reject the rental order",
 					"id": "44886049-074c896e-e12b-42be-9d1e-79af049d26f1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
