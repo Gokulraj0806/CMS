@@ -529,7 +529,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/api/rental/extend/686e83f1dfc8e0dac3c21dc2",
+							"raw": "{{baseURL}}/api/rental/extend/686e8c97dda469d7a260cb23",
 							"host": [
 								"{{baseURL}}"
 							],
@@ -537,7 +537,7 @@
 								"api",
 								"rental",
 								"extend",
-								"686e83f1dfc8e0dac3c21dc2"
+								"686e8c97dda469d7a260cb23"
 							]
 						}
 					},
