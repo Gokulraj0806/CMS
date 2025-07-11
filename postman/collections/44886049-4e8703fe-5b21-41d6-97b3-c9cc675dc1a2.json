@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"johndoe@example.com\",\r\n  \"password\": \"YourSecurePassword123\",\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"phone\": \"9876543210\",\r\n  \"role\": \"customer\"\r\n}\r\n",
+							"raw": "{\r\n  \"email\": \"gokulraj09062004@gmail.com\",\r\n  \"password\": \"123456789\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"s\",\r\n  \"phone\": \"9876543210\",\r\n  \"role\": \"customer\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -27,12 +27,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/signup",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/auth/signup",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
