@@ -731,14 +731,42 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Disable the user",
 					"id": "44886049-9892e14f-9acb-4b27-a3ab-4ebdba06e218",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reason\":\"The suspicsion activity is detected\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/admin/users/ban/686be3c7276399f0508f2700",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"users",
+								"ban",
+								"686be3c7276399f0508f2700"
+							]
+						}
 					},
 					"response": []
 				}
