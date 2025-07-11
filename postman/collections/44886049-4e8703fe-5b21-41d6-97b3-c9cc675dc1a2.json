@@ -777,6 +777,41 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reason\":\"The suspicsion activity is detected\"\r\n}"
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/admin/users/unban/686be3c7276399f0508f2700",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"users",
+								"unban",
+								"686be3c7276399f0508f2700"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "44886049-11962d14-aaf0-4609-b158-d59e20e159c3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
 						"method": "GET",
 						"header": []
 					},
