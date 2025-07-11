@@ -771,7 +771,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Enable the user",
 					"id": "44886049-4bb49970-0715-4f4b-bc26-689a12fa66f8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
