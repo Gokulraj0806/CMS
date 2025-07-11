@@ -806,7 +806,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "show all rent orders",
 					"id": "44886049-11962d14-aaf0-4609-b158-d59e20e159c3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
