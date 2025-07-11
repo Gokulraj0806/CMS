@@ -886,7 +886,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "auditLogs",
 					"id": "44886049-2b2bba7c-09e0-4d58-adda-d8838f52347a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
