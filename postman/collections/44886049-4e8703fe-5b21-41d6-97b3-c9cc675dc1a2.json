@@ -835,14 +835,41 @@
 					"response": []
 				},
 				{
-					"name": "Rent",
+					"name": "Rent approve",
 					"id": "44886049-3af1cc80-fb12-4b21-b83a-ef7837c368ad",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"notes\":\"this is the important product use it wisly\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/admin/approve-rental/686e83f1dfc8e0dac3c21dc2",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"approve-rental",
+								"686e83f1dfc8e0dac3c21dc2"
+							]
+						}
 					},
 					"response": []
 				}
