@@ -805,6 +805,65 @@
 				},
 				{
 					"name": "show all rent orders",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "797da7c2-f0bb-4708-a370-98da863a7f2a",
+								"exec": [
+									"pm.test(\"Response status code is 200\", function () {\r",
+									"    pm.expect(pm.response.code).to.equal(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Response is an array and contains the expected fields\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"    \r",
+									"    pm.expect(responseData).to.be.an('array').that.is.not.empty;\r",
+									"\r",
+									"    responseData.forEach(item => {\r",
+									"        pm.expect(item).to.include.keys('_id', 'userId', 'productId', 'startDate', 'endDate', 'status', 'isFirstTimeRental', 'approvalStatus', 'notes', 'isReturned', 'returnCondition', 'createdAt', 'updatedAt', '__v', 'approveDate');\r",
+									"        pm.expect(item.userId).to.include.keys('_id', 'email');\r",
+									"        pm.expect(item.productId).to.include.keys('_id', 'name', 'description');\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"User ID is a valid object with a non-empty email\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"\r",
+									"    pm.expect(responseData).to.be.an('array').that.is.not.empty;\r",
+									"\r",
+									"    responseData.forEach(item => {\r",
+									"        pm.expect(item.userId).to.be.an('object').that.is.not.empty;\r",
+									"        pm.expect(item.userId.email).to.exist.and.to.be.a('string').and.to.have.lengthOf.at.least(1, \"Email should not be empty\");\r",
+									"    });\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Product ID is a valid object with non-empty name and description\", function () {\r",
+									"    const responseData = pm.response.json();\r",
+									"\r",
+									"    pm.expect(responseData).to.be.an('array').that.is.not.empty;\r",
+									"    \r",
+									"    responseData.forEach(item => {\r",
+									"        pm.expect(item.productId).to.be.an('object').that.is.not.empty;\r",
+									"        pm.expect(item.productId.name).to.exist.and.to.have.lengthOf.at.least(1, \"Product name should not be empty\");\r",
+									"        pm.expect(item.productId.description).to.exist.and.to.have.lengthOf.at.least(1, \"Product description should not be empty\");\r",
+									"    });\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"id": "44886049-11962d14-aaf0-4609-b158-d59e20e159c3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -921,6 +980,18 @@
 								"audit-logs"
 							]
 						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "44886049-88533a20-83fb-4609-a9b1-3b6de500df8a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
 					},
 					"response": []
 				}
