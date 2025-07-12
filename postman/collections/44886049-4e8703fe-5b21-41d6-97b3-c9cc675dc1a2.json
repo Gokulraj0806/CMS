@@ -833,7 +833,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "on rent products",
 					"id": "44886049-3f145e28-e319-4b0c-b6c2-ae30fe1652cc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
