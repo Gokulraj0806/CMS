@@ -984,7 +984,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "return Product",
 					"id": "44886049-88533a20-83fb-4609-a9b1-3b6de500df8a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
