@@ -170,7 +170,28 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"gokulraj09062004@gmail.com\",\r\n  \"password\": \"123456789\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"s\",\r\n  \"phone\": \"9876543210\",\r\n  \"role\": \"customer\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/auth/user-info",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"user-info"
+							]
+						}
 					},
 					"response": []
 				}
