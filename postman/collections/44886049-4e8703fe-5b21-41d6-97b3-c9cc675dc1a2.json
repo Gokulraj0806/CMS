@@ -218,7 +218,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"Mac book\",\r\n  \"description\": \"Latest apple device\",\r\n  \"category\": \"Electronics\",\r\n  \"specifications\": {\r\n    \"color\": \"Black\",\r\n    \"storage\": \"128GB\"\r\n  },\r\n  \"images\": [\"https://tse4.mm.bing.net/th/id/OIP.HSXn5s_z7sfOQIUd2sr94AHaL5?rs=1&pid=ImgDetMain&o=7&rm=3\"],\r\n  \"isAvailable\": true,\r\n  \"condition\": \"new\",\r\n  \"location\": \"Bangalore\",\r\n  \"oneTimeUse\":\"true\",\r\n  \"serviceDate\":\"2026-07-09\",\r\n  \"createdBy\": \"686be3c7276399f0508f2700\"\r\n}",
+							"raw": "{\r\n  \"name\": \"SamSung S24 Ultar\",\r\n  \"description\": \"Latest smart Mobile device\",\r\n  \"category\": \"Electronics\",\r\n  \"specifications\": {\r\n    \"color\": \"Black\",\r\n    \"storage\": \"128GB\"\r\n  },\r\n  \"images\": [\"https://tse4.mm.bing.net/th/id/OIP.HSXn5s_z7sfOQIUd2sr94AHaL5?rs=1&pid=ImgDetMain&o=7&rm=3\"],\r\n  \"isAvailable\": true,\r\n  \"condition\": \"new\",\r\n  \"location\": \"Bangalore\",\r\n  \"oneTimeUse\":\"false\",\r\n  \"serviceDate\":\"2026-07-09\",\r\n  \"createdBy\": \"686be3c7276399f0508f2700\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
