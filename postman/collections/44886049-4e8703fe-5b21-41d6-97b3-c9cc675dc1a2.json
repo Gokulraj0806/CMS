@@ -1115,7 +1115,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "rental product by the userid",
 					"id": "44886049-cdb04481-a508-48ee-b67f-c0ee31bd0543",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
