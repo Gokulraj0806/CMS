@@ -1085,14 +1085,32 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "the product rental by product id",
 					"id": "44886049-02db6bf5-c8d7-4583-9a24-8436bbdfc6c8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/admin/product-history/687b8fe41a3881fe24a6f451",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"product-history",
+								"687b8fe41a3881fe24a6f451"
+							]
+						}
 					},
 					"response": []
 				}
