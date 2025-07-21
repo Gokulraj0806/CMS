@@ -1122,7 +1122,25 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL}}/api/admin/user-history/6874caa660dbf331c1dcf195",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"user-history",
+								"6874caa660dbf331c1dcf195"
+							]
+						}
 					},
 					"response": []
 				}
