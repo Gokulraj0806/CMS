@@ -1145,14 +1145,41 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "status change according to the rental status",
 					"id": "44886049-fd60c457-76ed-45c3-a00b-41cc5058b2cb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{authToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newStatus\":\"approved\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/admin/rental-status/687f4ca588fdafa818da0d6e",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"admin",
+								"rental-status",
+								"687f4ca588fdafa818da0d6e"
+							]
+						}
 					},
 					"response": []
 				}
