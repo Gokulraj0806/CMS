@@ -67,7 +67,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"johndoe@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+							"raw": "{\r\n  \"email\": \"gokulraj09062004@gmail.com\",\r\n  \"password\": \"Gokulraj@123\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -75,12 +75,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/login",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/auth/login",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
