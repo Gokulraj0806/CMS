@@ -1182,8 +1182,20 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "make admin",
 					"id": "44886049-f8726f81-7233-4464-8ba8-531d28425a77",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "remove admin",
+					"id": "44886049-99adc4e5-44e9-4471-9448-33751c2febf5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
