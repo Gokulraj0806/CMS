@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"gokulraj09062004@gmail.com\",\r\n  \"password\": \"123456789\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"s\",\r\n  \"phone\": \"9876543210\",\r\n  \"role\": \"customer\"\r\n}\r\n",
+							"raw": "{\r\n  \"email\": \"gokulraj08062004@gmail.com\",\r\n  \"password\": \"Gokulraj@123\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"S\",\r\n  \"phone\": \"9025815749\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -27,10 +27,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/api/auth/signup",
+							"raw": "http://localhost:3000/api/auth/signup",
+							"protocol": "http",
 							"host": [
-								"{{baseURL}}"
+								"localhost"
 							],
+							"port": "3000",
 							"path": [
 								"api",
 								"auth",
