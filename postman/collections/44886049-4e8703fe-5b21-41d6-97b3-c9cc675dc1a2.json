@@ -1218,9 +1218,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "0c3ba89c-e117-479b-8614-22c9da76d775",
+				"id": "6e480b66-e534-44e3-a8e9-5b793c6dc08d",
 				"type": "text/javascript",
 				"packages": {},
+				"requests": {},
 				"exec": [
 					""
 				]
@@ -1229,9 +1230,10 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "57b6766b-f47d-4eba-afbb-98d98849e38a",
+				"id": "8f265094-4860-4fb5-bad6-c270e64673b8",
 				"type": "text/javascript",
 				"packages": {},
+				"requests": {},
 				"exec": [
 					""
 				]
@@ -1245,7 +1247,7 @@
 		},
 		{
 			"key": "baseURL",
-			"value": "",
+			"value": "https://sensuraircms.onrender.com",
 			"type": "string"
 		}
 	]
