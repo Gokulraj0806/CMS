@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"gokulraj08062004@gmail.com\",\r\n  \"password\": \"Gokulraj@123\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"S\",\r\n  \"phone\": \"9025815749\"\r\n}\r\n",
+							"raw": "{\r\n  \"email\": \"gk862004@gmail.com\",\r\n  \"password\": \"Gokulraj@123\",\r\n  \"firstName\": \"Gokulraj\",\r\n  \"lastName\": \"S\",\r\n  \"phone\": \"9025815749\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -27,12 +27,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/signup",
-							"protocol": "http",
+							"raw": "https://sensuraircms.onrender.com/api/auth/signup",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"sensuraircms",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"auth",
